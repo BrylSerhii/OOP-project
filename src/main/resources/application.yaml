@@ -1,0 +1,20 @@
+jwt:
+  secret: asdsadaad23r324yf214uyf12fo21y4ft21f421uf4yu12f412asdsadaad23r324yf214uyf12fo21y4ft21f421uf4yu12f412asdsadaad23r324yf214uyf12fo21y4ft21f421uf4yu12f412asdsadaad23r324yf214uyf12fo21y4ft21f421uf4yu12f412
+
+server:
+#  ssl:
+#    key-store: classpath:keystore/keystore.jks
+#    key-store-password: qwerty
+#    key-store-type: JKS
+#    key-password: qwerty
+spring:
+  allowed-cors: http://localhost:5173
+  datasource:
+    password: secret
+    username: myuser
+    url: jdbc:postgresql://localhost:5432/mydatabase
+    driver-class-name: org.postgresql.Driver
+
+#logging:
+#  level:
+#    org.springframework.security.web.csrf: debug
